@@ -1,0 +1,17 @@
+body{
+  padding:0px 20px;
+}
+.article{
+  display: block;
+  border: 1px solid black;
+  border-radius: 4px; 
+  padding: 5px;
+  margin: 5px;
+  width: 95vw;
+}
+.article p{
+  text-align: justify;
+}
+.btn, .form-input, .form-label{
+  margin: 5px;
+}

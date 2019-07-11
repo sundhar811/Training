@@ -1,0 +1,29 @@
+.leftPane{
+  height: 500px;
+  width: 33%;
+  background-color: azure;
+  border: 2px solid black;
+  float: left;
+  overflow: auto;
+}
+.rightPane{
+  height: 500px;
+  width: 66%;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  float: left;
+  overflow: auto;
+}
+
+.leftElement{
+  border: 1px solid black;
+  height: 50px;
+}
+.currElement{
+  background-color: lavender;
+  border: 1px solid black;
+  height: 50px;
+}
+.leftElement:hover{
+  background-color: lavender;
+}

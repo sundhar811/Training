@@ -1,0 +1,50 @@
+.calculator{
+  height: 300px;
+  width: 50%;
+  float: left;
+}
+.display{
+  height: 300px;
+  width: 50%;
+  float: left;
+}
+.inputpanel{
+  padding: 15px;
+}
+.inputpanel>input[type=text]{
+  width: 40%;
+  padding: 12px 20px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.inputpanel>input[type=text]:focus{
+  border: 3px solid red;
+}
+.buttonpanel{
+  padding: 15px;
+}
+.buttonpanel>button{
+  width: 18%;
+  height: 36px;
+  font-size: 18px;
+  margin: 0px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  transition-duration: 0.4s;
+}
+.buttonpanel>button:hover{
+  background-color: #008CBA;
+}
+.displayName{
+  padding: 15px;
+  float: left;
+}
+.displayValue{
+  padding: 15px;
+  float: left;
+}
+.displaybox{
+  padding: 5px;
+}

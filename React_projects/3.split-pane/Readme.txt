@@ -1,0 +1,1 @@
+Practiced developing an UI that emulates the split pane view, commonly used in email websites.

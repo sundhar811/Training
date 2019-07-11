@@ -1,0 +1,1 @@
+Developed a Tic-tac-toe game with the guidance of the tutorial in reactjs.org. Apart from the tutorial, 6 additional features are implemented in the application that was given as task at the end of the tutorial.

@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "title": "OPPO Reno 10x Zoom with 13MP Telephoto sensor launched in India ",
+      "content": "OPPO has launched its Reno Series in India with 10x Zoom edition. The Reno 10x Zoom smartphone comes with a triple rear camera that includes a 48MP primary camera, an 8MP ultra wide-angle camera and the world's first periscopic telephoto lens. It is uniquely designed to support a Shark Fin Rising Camera and is available in two colours."
+    },
+    {
+      "title":"World's 1st digital-only 'dress' sold for over ₹6.6 lakh",
+      "content":"Dutch startup The Fabricant, blockchain startup Dapper Labs and artist Johanna Jaskowska have sold world's first digital-only 'dress' called Iridescence for $9,500 (over ₹6.6 lakh) on the blockchain. It was designed using 2D garment pattern-cutting software and 3D design software, along with film rendering tools. We actually sold one of our items that has never been physical, The Fabricant said."
+    },
+    {
+      "title": "Google to invest €600 million in new data centre in Finland ",
+      "content": "Google said it has planned to invest about €600 million in a new data centre in Hamina, Finland. Google already has a data centre in Hamina, where it earlier invested €800 million. 'The demand for Google services is growing daily and we are building our data centre infrastructure to match this demand,' Google’s Finland Country Director Antti Järvinen said."
+    }
+  ]
+}
