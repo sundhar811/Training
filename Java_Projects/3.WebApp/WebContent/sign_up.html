@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+	<a class = "headerlink" href = "frontpage">&laquo; Frontpage</a>
+	</header>
+	<h1>Registration Page</h1>
+	<form action="regnext" method="post">
+		<table class = "regtable">
+			 <tr>
+			 <td><%=(request.getAttribute("errMessage") == null) ? "": request.getAttribute("errMessage")%></td>
+			 </tr>
+			<tr><td>
+			Register as: 
+			<input type="radio" name="acc_type" value="seller" required> Seller
+	  		<input type="radio" name="acc_type" value="user" required> User<br></td></tr>
+	  		<tr><td><input type = "text" name="name" placeholder="Full Name" autocomplete = "off" required><br></td></tr>
+	  		<tr><td><input type = "email" name="email" placeholder="Email Address" autocomplete = "off" required><br></td></tr>
+			<tr><td><input type = "text" name="username" placeholder="Username" autocomplete = "off" required><br></td></tr>
+			<tr><td><input type = "password" name="password" placeholder="Password" required><br></td></tr>
+			<tr><td><input type = "submit" value = "Sign Up &raquo;">
+			<input type = "reset" value = "Reset"></td></tr>
+			<tr><td>Registered User? <a href = "login">Sign In</a></td></tr>
+		</table>	
+	</form>
+</body>
+</html>

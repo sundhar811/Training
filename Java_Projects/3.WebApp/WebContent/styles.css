@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+a.headerlink:link, a.headerlink:visited{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.headerlink:hover, a.headerlink:active {
+  background-color: red;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+body {
+	font-family: "Raleway", Arial, sans-serif;
+}
+
+h1 {
+	letter-spacing: 6px;
+	text-align: center;
+}
+h2.center{
+	text-align: center;
+}
+h3.center{
+	text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: PaleTurquoise;
+}
+tr:nth-child(odd) {
+  background-color: LightCyan;
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+}
+
+th.product, td.product {
+  text-align: center;
+  padding: 15px;
+  border: 1.5px solid black;
+  border-collapse: collapse;
+}
+table{
+	text-align: center;
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+table.regtable{
+	width: 35%;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+input[type=text], [type=password], [type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input [type=radio]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+header{
+	text-align: right;
+}
+
+p.center{
+	text-align: center;
+}
+
+div.center{
+	text-align: center;
+}
+
+form.center{
+	text-align: center;
+}
+
+button{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}

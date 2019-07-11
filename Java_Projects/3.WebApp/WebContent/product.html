@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="styles.css">
+<title>Product</title>
+</head>
+<body>
+	<header>
+	<a class = "headerlink" href = "frontpage">&laquo; Frontpage</a>
+	</header>
+	<br>
+	<h3 class = "center">Select a function</h3> 
+	<form action="productdisplay" method = "get" class = "center">
+		<input type="radio" name="display" value="id" required> View Product by Id<br>
+  		<input type="radio" name="display" value="name" required> View Product by Name<br>
+  		<input type="radio" name="display" value="price" required> View Product by Price<br><br>
+  		<input type = "submit" value = "View Products &raquo;">
+		<input type = "reset" value = "Reset">
+	</form>
+</body>
+</html>
